@@ -1,0 +1,10 @@
+input /echo .                                                                  [==  WHM CURING + GEAR!  ==]
+input /equip body "Aristocrat's Coat"
+input /equip main "Chatoyant Staff"
+input /equip sub "Lizard Strap +1"
+input /equip neck "Fylgja Torque"
+input /equip feet "Cure Clogs"
+input /equip back "Dew Silk Cape +1"
+input /equip ammo "Hedgehog Bomb"
+input /equip ear1 "Roundel Earring"
+input /echo .                                                                  [==  WHM CURING + GEAR ON! ==]

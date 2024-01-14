@@ -1,0 +1,266 @@
+input /echo cmmt: input /item "Yagudo Drink" <me>
+input /echo cmmt: wait 3
+input /echo Summoning Cast 1
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 2
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 3
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 4
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 5
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 6
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 7
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 8
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 9
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 10
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 11
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 12
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 13
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 14
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 15
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 16
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 17
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 18
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 19
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 20
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 21
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 22
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 23
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 24
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 25
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 26
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo cmmt: input /item "Yagudo Drink" <me>
+input /echo cmmt: wait 3
+input /echo Summoning Cast 27
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 28
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 29
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 30
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 31
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 32
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 33
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 34
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 35
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 36
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 37
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 38
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 39
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 40
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 41
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 42
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 43
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 44
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 45
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 46
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 47
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 48
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 49
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 50
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 51
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+wait 3
+input /echo Summoning Cast 52
+input /ma "Dark Spirit" <me>
+wait 4
+input /ja "Release" <me>
+input /echo == Completed Summoning Skillup Loop! ==
+wait 3
+input /heal

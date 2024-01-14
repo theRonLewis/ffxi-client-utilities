@@ -1,0 +1,32 @@
+input /echo .                                          [ BLM Solo Script! START ]
+input /echo .                                          [ SILENCE! ]
+input /ma "Silence" <t>
+wait 7
+input /echo .                                          [ WATER 3 ! ]
+input /ma "Water III" <t>
+wait 7
+input /echo .                                          [ AERO 2! ]
+input /ma "Aero II" <t>
+wait 5
+input /echo .                                          [ FIRE 2! ]
+input /ma "Fire II" <t>
+wait 5
+input /echo .                                          [ BLIZZARD 2! ]
+input /ma "Blizzard II" <t>
+wait 4
+input /echo .                                          [ WATER 3 ! ]
+input /ma "Water III" <t>
+wait 7
+input /echo .                                          [ AERO 2! ]
+input /ma "Aero II" <t>
+wait 5
+input /echo .                                          [ FIRE 2! ]
+input /ma "Fire II" <t>
+wait 5
+input /echo .                                          [ BLIZZARD 2! ]
+input /ma "Blizzard II" <t>
+wait 4
+input /echo .                                          [ WATER 3 ! ]
+input /ma "Water III" <t>
+wait 7
+input /echo .                                          [ BLM Solo Script! FINISH ]

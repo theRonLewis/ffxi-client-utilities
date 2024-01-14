@@ -1,0 +1,4 @@
+input /echo .                                                   [==========================]
+input /echo .                                                   [=== HP: <hp> : (<hpp>) ===]
+input /echo .                                                   [=== MP: <mp> : (<mpp>) ===]
+input /echo .                                                   [==========================]

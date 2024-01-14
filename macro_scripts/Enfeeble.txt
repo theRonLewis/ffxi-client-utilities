@@ -1,0 +1,15 @@
+input /echo .                                                                                 [= Init Enfeeble Spells =]
+input /echo .                                                                                 [= Dia > Para > Poison > Blind =]
+input /echo .                                                                                 [= --> Dia  <-- =]
+input /ma "Dia" <t>
+wait 4
+input /echo .                                                                                 [= --> Paralyze  <-- =]
+input /ma "Paralyze" <t>
+wait 6
+input /echo .                                                                                 [= --> Poison  <-- =]
+input /ma "Poison" <t>
+wait 6
+input /echo .                                                                                 [= --> Blind  <-- =]
+input /ma "Blind" <t>
+wait 4
+input /echo .                                                                                 [= Enfeeble Spells Complete! =]

@@ -1,0 +1,6 @@
+input /echo .                                                                  [==  WHM BAR+ ELE GEAR!  ==]
+input /equip neck "Enhancing Torque"
+input /equip body "Blessed Bliaut +1"
+input /equip legs "Cleric's Pantaln."
+input /equip ear1 "Augmenting Earring"
+input /ma "Barfira" <me>

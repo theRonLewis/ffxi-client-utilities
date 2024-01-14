@@ -1,0 +1,74 @@
+input /echo .                             [= Craft Loop START! 24 synths... =]
+input /echo .                                                Craft 1 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 2 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 3 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 4 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 5 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 6 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 7 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 8 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 9 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 10 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 11 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 12 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 13 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 14 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 15 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 16 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 17 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 18 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 19 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 20 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 21 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 22 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 23 / 24
+input /lastsynth
+wait 20
+input /echo .                                                Craft 24 / 24
+input /lastsynth
+wait 20
+input /echo .                             [= Craft Loop FINISH! 24 synths complete... =]

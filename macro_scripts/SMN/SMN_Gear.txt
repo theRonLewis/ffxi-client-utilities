@@ -1,0 +1,17 @@
+input /echo .                                       [= Equip: Summoner Gear =]
+input /equip main "Solid Wand"
+input /equip sub "Pelte"
+input /equip ammo "Morion Tathlum"
+input /equip head "Seer's Crown +1"
+input /equip neck "Feather Collar"
+input /equip body "Baron's Saio"
+input /equip hands "Carbuncle Mitts"
+input /equip ring1 "Windurstian Ring"
+input /equip ring2 "Eremite's Ring +1"
+input /equip back "Black Cape"
+input /equip waist "Gold Obi +1"
+input /equip legs "Seer's Slacks +1"
+input /equip feet "Seer's Pumps +1"
+input /equip ear1 "Aura Earring +1"
+wait 0.5
+input /equip ear2 "Aura Earring +1"

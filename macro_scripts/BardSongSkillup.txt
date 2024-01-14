@@ -1,0 +1,242 @@
+input /echo == Starting Bard Song Skillup Loop... ==
+input /echo Bard Song Cast 1
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 2
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 3
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 4
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 5
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 6
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 7
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 8
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 9
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 10
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 11
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 12
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 13
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 14
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 15
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 16
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 17
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 18
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 19
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 20
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 21
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 22
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 23
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 24
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 25
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 26
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 27
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 28
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 29
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 30
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 31
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 32
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 33
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 34
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 35
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 36
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 37
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 38
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 39
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 40
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 41
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 42
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 43
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 44
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 45
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 46
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 47
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 48
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 49
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 50
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 51
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 52
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 53
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 54
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 55
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 56
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 57
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 58
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 59
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 60
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 61
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 62
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 63
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 64
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 65
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 66
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 67
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 68
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 69
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 70
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 71
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 72
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 73
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 74
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 75
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 76
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo Bard Song Cast 77
+input /ma "Army's Paeon III" <me>
+wait 14
+input /echo Bard Song Cast 78
+input /ma "Mage's Ballad" <me>
+wait 14
+input /echo Bard Song Cast 79
+input /ma "Sheepfoe Mambo" <me>
+wait 14
+input /echo Bard Song Cast 80
+input /ma "Sword Madrigal" <me>
+wait 14
+input /echo == Completed Bard Song Skillup Loop! ==

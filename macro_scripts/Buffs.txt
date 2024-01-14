@@ -1,0 +1,12 @@
+input /echo .                                                   [= PARTY BUFFS! =]
+input /ma "Protectra V" <me>
+input /ma "Protectra IV" <me>
+input /ma "Protectra III" <me>
+input /ma "Protectra II" <me>
+input /ma "Protectra" <me>
+wait 6
+input /ma "Shellra V" <me>
+input /ma "Shellra IV" <me>
+input /ma "Shellra III" <me>
+input /ma "Shellra II" <me>
+input /ma "Shellra" <me>

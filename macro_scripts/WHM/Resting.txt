@@ -1,0 +1,18 @@
+input /heal
+input /echo .                                                                  [==  WHM RESTING + GEAR!  ==]
+input /equip main "Chatoyant Staff"
+input /equip sub "Lizard Strap +1"
+input /equip head "Faerie Hairpin"
+input /equip neck "Beak Necklace +1"
+input /equip body "Mahatma Hpl."
+input /equip hands "Blessed Mitts +1"
+input /equip back "Mahatma Cape"
+input /equip waist "Hierarch Belt"
+input /equip legs "Bls. Trousers +1"
+input /equip feet "Blessed Pumps +1"
+input /equip ammo "Hedgehog Bomb"
+input /equip ear1 "Hades Earring"
+input /equip ring1 "Celestial Ring"
+wait 0.5
+input /equip ear2 "Hades Earring"
+input /equip ring2 "Celestial Ring"

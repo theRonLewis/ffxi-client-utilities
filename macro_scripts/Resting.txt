@@ -1,0 +1,4 @@
+input /echo .                                                   [====================]
+input /echo .                                                   [===   RESTING!   ===]
+input /echo .                                                   [====================]
+input /heal

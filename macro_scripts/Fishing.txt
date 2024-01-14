@@ -1,0 +1,9 @@
+input /echo .                                                                                                     [= Equip: Fishing Gear =]
+input /equip main "Debahocho +1"
+input /equip head "Horror Head"
+input /equip body "Angler's Tunica"
+input /equip hands "Angler's Gloves"
+input /equip legs "Angler's Hose"
+input /equip feet "Tarutaru Clomps"
+input /equip range "Tarutaru F. Rod"
+input /equip ammo "Insect Ball"

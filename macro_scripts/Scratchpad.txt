@@ -1,0 +1,37 @@
+input /echo .                                                                  [==  SCRATCHPAD MACRO!  ==]
+input /equip main "MAIN"
+input /equip sub "SUB"
+
+input /equip head "HEAD"
+input /equip neck "NECK"
+
+input /equip body "BODY"
+input /equip hands "HANDS"
+
+input /equip back "BACK"
+input /equip waist "WAIST"
+
+input /equip legs "LEGS"
+input /equip feet "FEET"
+
+input /equip range "RANGED"
+input /equip ammo "AMMO"
+
+input /equip ear1 "EAR1"
+input /equip ring1 "RING1"
+
+wait 0.5
+input /equip ear2 "EAR2"
+input /equip ring2 "RING2"
+
+
+
+
+Wardrobe1: main/sub/ranged/ammo
+Wardrobe2: capes/belt/neck
+Wardrobe3: rings/earrings
+Wardrobe4: head
+Wardrobe5: body
+Wardrobe6: hands
+Wardrobe7: legs
+Wardrobe8: feet

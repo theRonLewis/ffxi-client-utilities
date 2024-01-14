@@ -1,0 +1,16 @@
+input /echo .                                                                  [===       IDLE!    ===]
+input /equip main "Chatoyant Staff"
+input /equip body "Royal Cloak"
+input /equip back "White Cape +1"
+input /equip sub "Lizard Strap +1"
+input /equip neck "Feather Collar"
+input /equip hands "Healer's Mitts"
+input /equip waist "Gold Obi +1"
+input /equip range "Morion Tathlum"
+input /equip ear1 "Aura Earring +1"
+input /equip ring1 "Windurstian Ring"
+input /equip ring2 "Solace Ring +1"
+input /equip legs "Healer's Pantaloons"
+input /equip feet "Healer's Duckbills"
+wait 0.5
+input /equip ear2 "Aura Earring +1"
