@@ -3,58 +3,50 @@
 		--  Gear Wish List  --
 		----------------------
 
-		-- Relic Staff
 		main		= "Claustrum", 			-- Relic Weapon BLM augment has Refresh
 
 		range		= "Aureole", 			-- Absolute Virtue (Sin of Indolence)
 		
-		neck		= "Bloodbead Gorget",	-- lv82 NM in Eldieme Nec [S]
+		neck		= "Bloodbead Gorget",	-- ?? lv82 NM in Eldieme Nec [S]
 
 		head 		= "Karura Hachigane"	-- Z-NM in Wajaom Woodlands
 		head		= "Maat's Cap", 		-- All jobs 75
 		head		= "Src. Petasos +1", 	-- Relic +1
-		head		= "Nashira Turban",		-- 
-		head		= "Walahra Turban",		-- 
-		head		= "Oracle's Cap",		-- 
+		head		= "Nashira Turban",		-- Ultima Limbus (cerebrum)
+		head		= "Walahra Turban",		-- Imperial Standing
+		head		= "Oracle's Cap",		-- Tinnin (ZNM?)
 
-		body		= "Wzd. Coat +1",		-- AF +1
-		body		= "Goliard Saio",		-- 
+		body		= "Goliard Saio",		-- Not sure (SN?)
 
 		hands		= "Src. Gloves +1",		-- Relic +1
-		hands		= "Bricta's Cuffs",		-- Garliage [S] NM Elatha
-		hands		= "Dvt. Mitts +1", 		-- HQ
+		hands		= "Bricta's Cuffs",		-- Garliage [S] NM Elatha (SN?)
+		hands		= "Dvt. Mitts +1", 		-- HQ Clothcraft
 
-		legs		= "Goliard Trews",		-- 
 		legs		= "Src. Tonban +1"		-- Relic +1
 
-		feet		= "Rostrum Pumps", 		-- NM in Attowha Chasm
-		feet		= "Shrewd Pumps",		-- 
-		feet		= "Goliard Clogs",		-- 
+		feet		= "Shrewd Pumps",		-- Dyna Xarc - Dynamis Lord
 		
-		neck		= "Uggalepih Pendant",	-- 
+		neck		= "Uggalepih Pendant",	-- NM Golden-tongued Culberry - Pso'Xja 
 		neck		= "Fylgja Torque +1", 	-- HQ
-		neck		= "Gnole Torque",		-- Absolute Virtue
+		neck		= "Gnole Torque",		-- Absolute Virtue (Supernova)
 
 		back		= "Astute Cape", 		-- Ix'DRG
-		back		= "Ixion Cape",			-- 
 		back		= "Merciful Cape", 		-- Ix'MNK
 		back		= "Veela Cape",			-- ABsolute Virtue
 		back		= "Altruistic Cape",	-- Ix'DRK
 		back		= "Invigorating Cape"	-- Ilrusi Atoll Assault points
 
-		waist		= "Penitent's Rope",
-
-		left_ear	= "Novia Earring",		-- 
-		left_ear	= "Novio Earring",		-- 
-		right_ear	= "Ethereal Earring",	-- 
+		left_ear	= "Novia Earring",		-- JoL (Voracity)
+		left_ear	= "Novio Earring",		-- JoL (Adulation)
+		right_ear	= "Ethereal Earring",	-- Zilart/CoP Apocalypse Nigh
 		right_ear	= "Incubus Earring +1",	-- HQ
 		right_ear	= "Loquac. Earring",	-- Limbus, 75 coins
 		left_ear	= "Relaxing Earring",	-- sea obi chips
 		right_ear	= "Antivenom Earring",	-- mamool ja assault points
 
 		left_ring	= "Galdr Ring",			-- 
-		left_ring	= "Shadow Ring",		-- 
-		right_ring	= "Defending Ring",		-- 
+		left_ring	= "Shadow Ring",		-- Dyna Xarc - Dynamis Lord
+		right_ring	= "Defending Ring",		-- King Behemoth
 		right_ring	= "Balrahn's Ring",		-- ToAU missions
 
 
@@ -111,11 +103,31 @@ function get_sets()
 	-- makes handling self_commands easier.
 	-- Motes also uses this, but this is completely independent from Motes
 	include('Modes.lua')
+
+	-- Fashion set
+	sets.fashion = {
+		main		= "Treat Staff II",
+		sub			= "Reign Grip",
+		--range		= "Aureole",
+		ammo		= "Phtm. Tathlum",
+		head		= "Sorcerer's Petas.",
+		body		= "Genie Weskit",
+		hands		= "Sorcerer's Gloves",
+		legs		= "Sorcerer's Tonban",
+		feet		= "Herald's Gaiters",
+		--neck		= "Elemental Torque",
+		--waist		= "Pythia Sash +1",
+		--left_ear	= "Omn. Earring +1",
+		--right_ear	= "Omn. Earring +1",
+		--left_ring	= "Omn. Ring +1",
+		--right_ring	= "Omn. Ring +1",
+		--back		= "Mahatma Cape",
+	}
 	
 	-- Idle sets
 	
 	sets.idle = { -- Movement, PDT, MDT, Refresh, HP, MP
---		main		= "Claustrum", -- BLM augment has Refresh
+		--main		= "Claustrum", -- BLM augment has Refresh
 		main		= "Terra's Staff",
 		sub			= "Reign Grip",
 		--range		= "Aureole",
@@ -123,8 +135,7 @@ function get_sets()
 		head		= "Zenith Crown +1",
 		body		= "Dalmatica +1",
 		hands		= "Mahatma Cuffs", 
-		--legs		= "Goliard Trews",
-		legs		= "Genie Lappas",
+		legs		= "Goliard Trews",
 		feet		= "Herald's Gaiters",
 		--neck		= "Bloodbead Gorget",
 		neck		= "Orochi Nodowa",
@@ -162,8 +173,7 @@ function get_sets()
 		--left_ring	= "Galdr Ring",
 		left_ring	= "Omn. Ring +1",
 		right_ring	= "Omn. Ring +1",
-		--back		= "Ixion Cape",
-		back		= "Prism Cape",
+		back		= "Ixion Cape",
 	}
 	
 	sets.elemental_magic.skill = set_combine(sets.elemental_magic,{ -- Skill
@@ -183,8 +193,7 @@ function get_sets()
 		body		= "Mahatma Hpl.",
 		hands		= "Mahatma Cuffs",
 		legs		= "Mahatma Slops",
-		--feet		= "Goliard Clogs",
-		feet		= "Sorcerer's Sabots",
+		feet		= "Goliard Clogs",
 		neck		= "Lmg. Medallion +1",
 		waist		= "Witch Sash",
 		left_ear	= "Omn. Earring +1",
@@ -192,8 +201,7 @@ function get_sets()
 		--left_ring	= "Galdr Ring",
 		left_ring	= "Omn. Ring +1",
 		right_ring	= "Omn. Ring +1",
-		--back		= "Ixion Cape",
-		back		= "Prism Cape",
+		back		= "Ixion Cape",
 	}
 
 	sets.dark_magic = { -- Skill (pot/macc) > INT (macc)
@@ -265,8 +273,7 @@ function get_sets()
 		--hands		= "Bricta's Cuffs", -- Garliage [S] NM Elatha
 		hands		= "Seer's Mitts +1",
 		legs		= "Genie Lappas",
-		--feet		= "Goliard Clogs",
-		feet		= "Mahatma Pigaches",
+		feet		= "Goliard Clogs",
 		neck		= "Enfeebling Torque",
 		waist		= "Pythia Sash +1",
 		--left_ear	= "Incubus Earring +1",
@@ -969,7 +976,10 @@ function self_command(command)
 			windower.add_to_chat(122,'Using Terra\'s Staff in idle')
 		end	
 		choose_set()
-			
+
+	elseif command == "idle" then
+		choose_set()
+
 	-- Clipping plane (requires Config plugin)
 	elseif command == "clippingPlane" then
 		clippingPlane:cycle()
@@ -984,11 +994,18 @@ end
 ---------------
 
 enable('main','sub','range','ammo','head','neck','left_ear','right_ear','body','hands','left_ring','right_ring','back','waist','legs','feet')
---send_command('wait 1; input /cm u;wait 1;gs equip idle;wait 1;input /macro book 2;wait 2; input !myth; wait 1; input /echo Gearswap loaded.')
 job = 'BLM';
-slot = '3';
+macroBook = '3';
 send_command(
-	'wait 1; input /macro book '..slot..'; '..
+	'input /echo .       ==>             ...; '..
+	'input /echo .       ==> '..job..' Gearswap Initializing...; '..
+	'input /echo .       ==>             ...; '..
+	'wait 2; input /lockstyle off; '..
+	'wait 1; input /macro book '..macroBook..'; '..
 	'wait 1; input /macro set 1; '..
-	'wait 1; input /echo .       ==> '..job..' Gearswap Loaded, Macro Book '..slot..', Set 1 equipped, all slots changeable...; '..
-	'wait 1; input /lockstyleset '..slot)
+	'wait 1; gs equip fashion; '..
+	'wait 10; input /lockstyle on; '..
+	'wait 3; gs c idle; '..
+	'wait 1; input /echo .       ==> '..job..' Gearswap Loaded, Macro Book:'..macroBook..'-Set:1 equipped, all slots changeable...;'..
+	'input /echo .       ==>             ...; '
+)

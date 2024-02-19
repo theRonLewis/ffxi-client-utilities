@@ -141,6 +141,26 @@ function get_sets()
 	-- Motes also uses this, but this is completely independent from Motes
 	include('Modes.lua')
 
+	-- Fashion set
+	sets.fashion = {
+		main		= "Treat Staff II",
+		sub			= "Reign Grip",
+		--range		= "Aureole",
+		--ammo		= "Phtm. Tathlum",
+		head		= "Summoner's Horn",
+		body		= "Yinyang Robe",
+		hands 		= "Summoner's Brcr.",
+		legs 		= "Summoner's Spats",
+		feet		= "Herald's Gaiters",
+		--neck		= "Elemental Torque",
+		--waist		= "Pythia Sash +1",
+		--left_ear	= "Omn. Earring +1",
+		--right_ear	= "Omn. Earring +1",
+		--left_ring	= "Omn. Ring +1",
+		--right_ring	= "Omn. Ring +1",
+		--back		= "Mahatma Cape",
+	}
+
 	-- Idle sets
 
 	sets.idle = { -- Movement, PDT, MDT, Refresh, HP, MP
@@ -1384,7 +1404,10 @@ function self_command(command)
 			use_terras = true
 			windower.add_to_chat(122,'Using Terra\'s Staff in idle')
 		end	
-		choose_set()	
+		choose_set()
+
+	elseif command == "idle" then
+		choose_set()
 		
 	-- Clipping plane (requires Config plugin)
 	elseif command == "clippingPlane" then
@@ -1450,5 +1473,21 @@ function setup_job()
 end
  
 enable('main','sub','range','ammo','head','neck','left_ear','right_ear','body','hands','left_ring','right_ring','back','waist','legs','feet')
--- send_command('wait 1; gs equip idle; wait 1; input /macro book 6; wait 1; input /macro set 1; wait 1; input /lockstyleset 12')
-send_command('wait 1; input /macro book 5; wait 1; input /macro set 1; wait 1; input /echo .       ==> SMN Gearswap Loaded, Macro Book 5, Set 1 equipped; wait 1; input /lockstyleset 4')
+
+job = 'SMN';
+macroBook = '5';
+send_command(
+	'input /echo .       ==>             ...; '..
+	'input /echo .       ==> '..job..' Gearswap Initializing...; '..
+	'input /echo .       ==>             ...; '..
+--	'wait 2; input /lockstyle off; '..
+	'wait 1; input /macro book '..macroBook..'; '..
+	'wait 1; input /macro set 1; '..
+	'wait 1; gs equip fashion; '..
+	'wait 10; input /lockstyle on; '..
+	'wait 3; gs c idle; '..
+	'wait 1; input /echo .       ==> '..job..' Gearswap Loaded; '..
+	'input /echo .       ==> Macro Book:'..macroBook..'-Set:1 equipped; '..
+	'input /echo .       ==> all slots changeable...;'..
+	'input /echo .       ==>             ...; '
+)

@@ -26,6 +26,26 @@
 function get_sets()
 	--This function prepares your equipment sets, sets variables
 
+	-- Fashion set
+	sets.fashion = {
+		--main		= "Treat Staff II",
+		--sub			= "Reign Grip",
+		--range		= "Aureole",
+		--ammo		= "Phtm. Tathlum",
+		head		= "Tlahtlamah Glasses",
+		body		= "Carpenter's Apron",
+		--hands 		= "Summoner's Brcr.",
+		--legs 		= "Summoner's Spats",
+		--feet		= "Herald's Gaiters",
+		--neck		= "Elemental Torque",
+		--waist		= "Pythia Sash +1",
+		--left_ear	= "Omn. Earring +1",
+		--right_ear	= "Omn. Earring +1",
+		--left_ring	= "Omn. Ring +1",
+		--right_ring	= "Omn. Ring +1",
+		--back		= "Mahatma Cape",
+	}
+
 	sets.gear = {
 		main="Yew Wand +1",
 		sub="Pelte",
@@ -205,7 +225,7 @@ end
 
 function self_command(command)
 
-	-- made/melee mode
+	-- mage/melee mode
 	if command == "melee" then
 		meleeMode = true
 		--enable('main', 'sub', 'range', 'ammo')
@@ -218,13 +238,17 @@ function self_command(command)
 		windower.add_to_chat(8,'[ ==> meleeMode is FALSE, GS now changing top row! ]')
 
 	-- debug toggles
-	elseif command == "debugon" then
-		debugMode = true
-		windower.add_to_chat(8,'[ ==> ! DEBUG MODE ON - printing changes... ]')
+	elseif command == "debug" then
+		if debugMode == false then
+			debugMode = true
+			windower.add_to_chat(8,'[ ==> ! DEBUG MODE ON - printing changes... ]')
+		else -- debugMode == true
+			debugMode = false
+			windower.add_to_chat(8,'[ ==> ! DEBUG MODE OFF - going silent. ]')
+		end
 
-	elseif command == "debugoff" then
-		debugMode = false
-		windower.add_to_chat(8,'[ ==> ! DEBUG MODE OFF - going silent. ]')
+	elseif command == "idle" then
+		choose_set()
 
 		-- catch all
 	elseif true == true then
@@ -243,9 +267,19 @@ end
 
 enable('main','sub','range','ammo','head','neck','left_ear','right_ear','body','hands','left_ring','right_ring','back','waist','legs','feet') 
 job = 'RDM';
-slot = '8';
+macroBook = '8';
 send_command(
-	'wait 1; input /macro book '..slot..'; '..
+	'input /echo .       ==>             ...; '..
+	'input /echo .       ==> '..job..' Gearswap Initializing...; '..
+	'input /echo .       ==>             ...; '..
+	'wait 2; input /lockstyle off; '..
+	'wait 1; input /macro book '..macroBook..'; '..
 	'wait 1; input /macro set 1; '..
-	'wait 1; input /echo .       ==> '..job..' Gearswap Loaded, Macro Book '..slot..', Set 1 equipped, all slots changeable...; '..
-	'wait 1; input /lockstyleset '..slot)
+	'wait 1; gs equip fashion; '..
+	'wait 10; input /lockstyle on; '..
+	'wait 3; gs c idle; '..
+	'wait 1; input /echo .       ==> '..job..' Gearswap Loaded; '..
+	'input /echo .       ==> Macro Book:'..macroBook..'-Set:1 equipped; '..
+	'input /echo .       ==> all slots changeable...;'..
+	'input /echo .       ==>             ...; '
+)

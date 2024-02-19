@@ -27,6 +27,25 @@ function get_sets()
 	--This function prepares your equipment sets, sets variables
 
 
+	-- Fashion set
+	sets.fashion = {
+		main		= "Chatoyant Staff",
+		sub			= "Reign Grip",
+		--range		= "Aureole",
+		--ammo		= "Phtm. Tathlum",
+		head		= "Clr. Cap +1",
+		body		= "Aristocrat's Coat",
+		hands 		= "Blessed Mitts +1",
+		legs 		= "Cleric's pantaln.",
+		feet		= "Herald's Gaiters",
+		--neck		= "Elemental Torque",
+		--waist		= "Pythia Sash +1",
+		--left_ear	= "Omn. Earring +1",
+		--right_ear	= "Omn. Earring +1",
+		--left_ring	= "Omn. Ring +1",
+		--right_ring	= "Omn. Ring +1",
+		--back		= "Mahatma Cape",
+	}
 
 -------------------------------------------------
 	sets.ws = {}
@@ -355,6 +374,9 @@ function self_command(command)
 		debugMode = false
 		windower.add_to_chat(8,'[ ==> ! DEBUG MODE OFF - going silent. ]')
 
+	elseif command == "idle" then
+		choose_set()
+
 		-- catch all
 	elseif true == true then
 		windower.add_to_chat(8,'[ ==> ! unrecognized command!!! ]')
@@ -370,4 +392,18 @@ end
 --------------- 
 
 enable('main','sub','range','ammo','head','neck','left_ear','right_ear','body','hands','left_ring','right_ring','back','waist','legs','feet') 
-send_command('wait 1; input /macro book 2; wait 1; input /macro set 1; wait 1; input /echo .       ==> WHM Gearswap Loaded, Macro Book 2, Set 1 equipped, all slots changeable...; wait 1; input /lockstyleset 2')
+job = 'WHM';
+macroBook = '2';
+send_command(
+	'input /echo .       ==>             ...; '..
+	'input /echo .       ==> '..job..' Gearswap Initializing...; '..
+	'input /echo .       ==>             ...; '..
+	--'wait 2; input /lockstyle off; '..
+	'wait 1; input /macro book '..macroBook..'; '..
+	'wait 1; input /macro set 1; '..
+	'wait 1; gs equip fashion; '..
+	'wait 10; input /lockstyle on; '..
+	'wait 3; gs c idle; '..
+	'wait 1; input /echo .       ==> '..job..' Gearswap Loaded, Macro Book:'..macroBook..'-Set:1 equipped, all slots changeable...;'..
+	'input /echo .       ==>             ...; '
+)
