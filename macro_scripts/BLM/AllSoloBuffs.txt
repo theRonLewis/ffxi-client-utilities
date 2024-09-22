@@ -1,0 +1,10 @@
+input /echo .                                          [ BLM Self-Buff Script! START ]
+input /ma "Stoneskin" <me>
+wait 10
+input /ma "Blink" <me>
+wait 8
+input /ma "Ice Spikes" <me>
+wait 6
+input /ma "Phalanx" <me>
+wait 5
+input /echo .                                          [ BLM Self-Buff Script! END ]

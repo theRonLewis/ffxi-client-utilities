@@ -28,24 +28,24 @@ function get_sets()
 
 	-- initial gearset when changing jobs while leveling
 	sets.gear = {
-		main="Monster Signa",
-		sub="Disciple Grip",
-		range="Self Bow +1",
-		ammo="Bone Arrow",
+		main		= "Tomahawk +1",
+		sub			= "Anthos Xiphos",
+		range		= "",
+		ammo		= "Fish Oil Broth",
 
-		head="Noble's Ribbon",
-		neck="Focus Collar +1",
-		body="Angler's Tunica",
-		hands="Battle Gloves",
-		legs="Angler's Hose",
-		feet="Bounding Boots",
-		back="Traveler's Mantle",
-		waist="Warrior's Belt +1",
+		head		= "Empress Hairpin",
+		neck		= "Focus Collar +1",
+		body		= "Chainmail +1",
+		hands		= "Battle Gloves",
+		legs		= "Chain  Hose +1",
+		feet		= "Bounding Boots",
+		back		= "Nomad's Mantle",
+		waist		= "Warrior's Belt +1",
 		
-		ear1="Hope Earring +1",
-		ear2="Cassie Earring",
-		ring1="Hope Ring +1",
-		ring2="Hope Ring"
+		ear1		= "Hope Earring +1",
+		ear2		= "Hope Earring +1",
+		ring1		= "Courage Ring +1",
+		ring2		= "Courage Ring +1"
 	}
 
 -------------------------------------------------

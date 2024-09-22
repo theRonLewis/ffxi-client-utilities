@@ -23,6 +23,8 @@
 		ring2="Celestial Ring"
 --]]
 
+require("common_functions")
+
 function get_sets()
 	--This function prepares your equipment sets, sets variables
 
@@ -298,7 +300,7 @@ end
 -----------------------------------------------------------------------------------
 
 function equip_rest()
-	-- toggling of weapons for TPis handled in commands
+	-- toggling of weapons for TP is handled in commands
 	-- can just equip hMP gear w/o loss of TP
 	equip(sets.resting)
 	print_if_debug('================> Resting')
@@ -348,6 +350,11 @@ function print_if_debug(msg)
 	end
 end
 
+-- When a buff changes
+function buff_change(name,gain)
+	common_debuff_items()
+end
+
 ---------------------
 -- Player commands --
 --------------------- 
@@ -392,18 +399,5 @@ end
 --------------- 
 
 enable('main','sub','range','ammo','head','neck','left_ear','right_ear','body','hands','left_ring','right_ring','back','waist','legs','feet') 
-job = 'WHM';
-macroBook = '2';
-send_command(
-	'input /echo .       ==>             ...; '..
-	'input /echo .       ==> '..job..' Gearswap Initializing...; '..
-	'input /echo .       ==>             ...; '..
-	--'wait 2; input /lockstyle off; '..
-	'wait 1; input /macro book '..macroBook..'; '..
-	'wait 1; input /macro set 1; '..
-	'wait 1; gs equip fashion; '..
-	'wait 10; input /lockstyle on; '..
-	'wait 3; gs c idle; '..
-	'wait 1; input /echo .       ==> '..job..' Gearswap Loaded, Macro Book:'..macroBook..'-Set:1 equipped, all slots changeable...;'..
-	'input /echo .       ==>             ...; '
-)
+
+common_init('WHM', '2')

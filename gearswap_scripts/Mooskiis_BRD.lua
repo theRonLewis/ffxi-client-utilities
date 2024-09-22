@@ -27,6 +27,28 @@
 function get_sets()
 	--This function prepares your equipment sets, sets variables
 
+	-- Fashion set
+	sets.fashion = {
+		--main="Chatoyant Staff",
+		--sub="Reign Grip",
+		--range="",
+		--ammo="Hedgehog Bomb",
+
+		--head="Faerie Hairpin",
+		--neck="Beak Necklace +1",
+		--body="Mahatma Hpl.",
+		--hands="Blessed Mitts +1",
+		--legs="Bls. Trousers +1",
+		--feet="Blessed Pumps +1",
+		--back="Mahatma Cape",
+		--waist="Hierarch Belt",
+		
+		--ear1="Hades Earring",
+		--ear2="Hades Earring",
+		--ring1="Celestial Ring",
+		--ring2="Celestial Ring"
+	}
+
 	sets.gear = {
 		main="Monster Signa",
 		sub="Lizard Strap +1",

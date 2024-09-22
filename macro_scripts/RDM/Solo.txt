@@ -1,0 +1,50 @@
+input /echo .                                          [ RDM Solo Nuke Script! START ]
+input /echo .                                          [ WATER 2! ]
+input /ma "Water II" <t>
+wait 6
+input /echo .                                          [ BLIZZARD ! ]
+input /ma "Blizzard" <t>
+wait 4
+input /echo .                                          [ FIRE! ]
+input /ma "Fire" <t>
+wait 4
+input /echo .                                          [ AERO! ]
+input /ma "Aero" <t>
+wait 4
+input /echo .                                          [ WATER 2! ]
+input /ma "Water II" <t>
+wait 6
+input /echo .                                          [ BLIZZARD ! ]
+input /ma "Blizzard" <t>
+wait 4
+input /echo .                                          [ FIRE! ]
+input /ma "Fire" <t>
+wait 4
+input /echo .                                          [ AERO! ]
+input /ma "Aero" <t>
+wait 4
+input /echo .                                          [ WATER 2! ]
+input /ma "Water II" <t>
+wait 6
+input /echo .                                          [ BLIZZARD ! ]
+input /ma "Blizzard" <t>
+wait 4
+input /echo .                                          [ FIRE! ]
+input /ma "Fire" <t>
+wait 4
+input /echo .                                          [ AERO! ]
+input /ma "Aero" <t>
+wait 4
+input /echo .                                          [ WATER 2! ]
+input /ma "Water II" <t>
+wait 6
+input /echo .                                          [ BLIZZARD ! ]
+input /ma "Blizzard" <t>
+wait 4
+input /echo .                                          [ FIRE! ]
+input /ma "Fire" <t>
+wait 4
+input /echo .                                          [ AERO! ]
+input /ma "Aero" <t>
+wait 4
+input /echo .                                          [ RDM Solo Nuke Script! FINISH ]

@@ -3,8 +3,6 @@
 		--  Gear Wish List  --
 		----------------------
 
-		main		= "Claustrum", 			-- Relic Weapon BLM augment has Refresh
-
 		range		= "Aureole", 			-- Absolute Virtue (Sin of Indolence)
 		
 		neck		= "Bloodbead Gorget",	-- ?? lv82 NM in Eldieme Nec [S]
@@ -44,7 +42,7 @@
 		left_ear	= "Relaxing Earring",	-- sea obi chips
 		right_ear	= "Antivenom Earring",	-- mamool ja assault points
 
-		left_ring	= "Galdr Ring",			-- 
+		left_ring	= "Galdr Ring",			-- Vrtra (Supernova Custom)
 		left_ring	= "Shadow Ring",		-- Dyna Xarc - Dynamis Lord
 		right_ring	= "Defending Ring",		-- King Behemoth
 		right_ring	= "Balrahn's Ring",		-- ToAU missions
@@ -76,6 +74,7 @@ COMMANDS
 ---------------------
 
 CHANGELOG
+- v2.5		updated gear, added common_functions first implementation
 - v2.42:    updated and outfitted for Ron (Mooskiis) gear
 - v2.41:	using Sorc. Ring by default when weakened (because the latent is active when weak due to the way it's calculated)
 - v2.4:		using nakedHP values in Sorc. Ring calculation
@@ -88,10 +87,16 @@ CHANGELOG
 			added switch for display_mp_cost (show MP cost)
 - v2.0:		base (core functionality)
 
-CREDITS
+CREDITS[OG]
 - Adapted this from Wren's GearSwap luas: https://supernovaffxi.fandom.com/wiki/Wren%27s_Gearswaps
 
+CREDITS
+- Mostly stolen and adapted from Enedin: https://enedin.be/gs/
+- Also heavy influence from Tristamgreen: https://github.com/tristamgreen/ffxi-gearswaps
+
 ]]--
+
+require("common_functions")
 
 ----------
 -- Sets --
@@ -106,7 +111,7 @@ function get_sets()
 
 	-- Fashion set
 	sets.fashion = {
-		main		= "Treat Staff II",
+		main		= "Claustrum",
 		sub			= "Reign Grip",
 		--range		= "Aureole",
 		ammo		= "Phtm. Tathlum",
@@ -138,7 +143,7 @@ function get_sets()
 		legs		= "Goliard Trews",
 		feet		= "Herald's Gaiters",
 		--neck		= "Bloodbead Gorget",
-		neck		= "Orochi Nodowa",
+		neck		= "Orochi Nodowa +1",
 		waist		= "Hierarch Belt",
 		--left_ear	= "Novia Earring",
 		left_ear	= "Omn. Earring +1",
@@ -153,8 +158,7 @@ function get_sets()
 	-- Magic sets
 	
 	sets.elemental_magic = { -- Magic Attack Bonus > INT > Skill
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Wise Strap",
 		ammo		= "Phtm. Tathlum",
 		--head		= "Maat's Cap",
@@ -184,8 +188,7 @@ function get_sets()
 		ammo		= "Brio Dart",
 	})
 	sets.elemental_magic.debuffs={ -- INT
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Bugard Strap +1",
 		ammo		= "Phtm. Tathlum",
 		--head		= "Maat's Cap",
@@ -241,8 +244,7 @@ function get_sets()
 	
 	sets.enfeebling_magic = {}
 	sets.enfeebling_magic.int = { -- Skill (macc) > INT (pot)
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Reign Grip",
 		--range		= "Aureole",
 		ammo		= "Phtm. Tathlum",
@@ -264,8 +266,7 @@ function get_sets()
 		back		= "Altruistic Cape",
 	}
 	sets.enfeebling_magic.mnd = { -- Skill (macc) > MND (pot)
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Reign Grip",
 		range		= "Aureole",
 		head		= "Genie Tiara",
@@ -288,8 +289,7 @@ function get_sets()
 	}
 
 	sets.enhancing_magic = { -- Skill (pot)
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Vivid Strap +1",
 		ammo		= "Phtm. Tathlum",
 		head		= "Walahra Turban",
@@ -311,8 +311,7 @@ function get_sets()
 	}
 	sets.enhancing_magic.stoneskin = { -- MND (pot), Fast Cast/MP when cap is reached
 	-- With 226 (200+16merits+10claustrum) skill and 450 being SN cap, you need 135 MND on BLM to get cap 	
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Reign Grip",
 		ammo		= "Phtm. Tathlum",
 		head		= "Zenith Crown +1",
@@ -401,8 +400,7 @@ function get_sets()
 	sets.matching_dayweather = {waist = "Hachirin-no-Obi"}
 	
 	sets.resting = { -- hMP
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Reign Grip",
 		ammo		= "Phtm. Tathlum",
 		head		= "Oracle's Cap",
@@ -523,10 +521,15 @@ function get_sets()
 	-- Variables --
 	---------------
 
+	-- Don't change this:
+	loopCrafting = false
+	killCountdownCrafting = false
+
 	-- Default values, feel free to change
 	nukeDmg = true											-- nuking in damage or skill
 	display_mp_cost = true									-- true: show cost of MP
 	use_terras = true										-- true: use Terra's Staff in idle (over BLM augmented Claustrum)
+	
 	
 	-- Lists of options. Default value is the first one
 	clippingPlane = M{'1', '0.75', '0.5', '10', '5', '2'}	-- config ClippingPlane value
@@ -911,6 +914,11 @@ function aftercast(spell)
     choose_set()
 end
 
+-- When a buff changes
+function buff_change(name,gain)
+	common_debuff_items()
+end
+
 ---------------------
 -- Player commands --
 ---------------------
@@ -985,6 +993,8 @@ function self_command(command)
 		clippingPlane:cycle()
 		send_command('input //config ClippingPlane ' .. clippingPlane.value)
 		windower.add_to_chat(122,"ClippingPlane: " .. clippingPlane.current)
+	else
+		common_commands(command)
 	end
 		
 end
@@ -994,18 +1004,5 @@ end
 ---------------
 
 enable('main','sub','range','ammo','head','neck','left_ear','right_ear','body','hands','left_ring','right_ring','back','waist','legs','feet')
-job = 'BLM';
-macroBook = '3';
-send_command(
-	'input /echo .       ==>             ...; '..
-	'input /echo .       ==> '..job..' Gearswap Initializing...; '..
-	'input /echo .       ==>             ...; '..
-	'wait 2; input /lockstyle off; '..
-	'wait 1; input /macro book '..macroBook..'; '..
-	'wait 1; input /macro set 1; '..
-	'wait 1; gs equip fashion; '..
-	'wait 10; input /lockstyle on; '..
-	'wait 3; gs c idle; '..
-	'wait 1; input /echo .       ==> '..job..' Gearswap Loaded, Macro Book:'..macroBook..'-Set:1 equipped, all slots changeable...;'..
-	'input /echo .       ==>             ...; '
-)
+
+common_init('BLM', '3')

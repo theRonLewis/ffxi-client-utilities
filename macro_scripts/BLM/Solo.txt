@@ -1,23 +1,45 @@
-input /echo .                                          [ BLM Solo Script! START ]
-input /echo .                                          [ TORNADO! ]
-input /ma "Tornado" <t>
-wait 13.5
-input /echo .                                          [ SILENCE! ]
-input /ma "Silence" <t>
+input /echo .                                          [ BLM Merit Solo Script! START ]
+input /echo .                                          [ BLIZZARD IV ]
+input /ma "Blizzard IV" <t>
 wait 7
-input /echo .                                          [ FREEZE! ]
-input /ma "Freeze" <t>
-wait 13.5
-input /echo .                                          [ AERO 2! ]
-input /ma "Aero II" <t>
-wait 5
-input /echo .                                          [ FIRE 2! ]
-input /ma "Fire II" <t>
-wait 5
-input /echo .                                          [ BLIZZARD 2! ]
+input /echo .                                          [ SLEEP II ]
+input /ma "Sleep II" <t>
+wait 4
+input /echo .                                          [ REST START ]
+input /heal
+wait 35
+input /echo .                                          [ REST END ]
+input /heal
+wait 2
+input /echo .                                          [ THUNDER IV ]
+input /ma "Thunder IV" <t>
+wait 7
+input /echo .                                          [ SLEEP ]
+input /ma "Sleep" <t>
+wait 4
+input /echo .                                          [ REST START ]
+input /heal
+wait 35
+input /echo .                                          [ REST END ]
+input /heal
+wait 2
+input /echo .                                          [ BLIZZARD IV ]
+input /ma "Blizzard IV" <t>
+wait 7
+input /echo .                                          [ SLEEP II ]
+input /ma "Sleep II" <t>
+wait 4
+input /echo .                                          [ REST START ]
+input /heal
+wait 35
+input /echo .                                          [ REST END ]
+input /heal
+wait 2
+input /echo .                                          [ THUNDER IV ]
+input /ma "Thunder IV" <t>
+wait 7
+input /echo .                                          [ BLIZARD II CONTINGENCY ]
 input /ma "Blizzard II" <t>
-wait 4
-input /echo .                                          [ WATER 2! ]
-input /ma "Water II" <t>
-wait 4
-input /echo .                                          [ BLM Solo Script! FINISH ]
+wait 5
+input /echo .                                          [ REST START, MACRO FINISH ]
+input /heal

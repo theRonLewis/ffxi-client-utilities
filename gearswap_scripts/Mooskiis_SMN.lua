@@ -9,6 +9,7 @@
 		-- Absolute Virtue (Sin of Indolence)
 		range		= "Aureole", -- M.ACC +8
 
+
 		-- NM in Wajaom Woodlands
 		head = "Karura Hachigane"
 
@@ -130,6 +131,8 @@ CREDITS
 		ring2="Celestial Ring"
 --]]
 
+require("common_functions")
+
 
 ----------
 -- Sets --
@@ -143,7 +146,7 @@ function get_sets()
 
 	-- Fashion set
 	sets.fashion = {
-		main		= "Treat Staff II",
+		main		= "Claustrum",
 		sub			= "Reign Grip",
 		--range		= "Aureole",
 		--ammo		= "Phtm. Tathlum",
@@ -179,12 +182,11 @@ function get_sets()
 		hands 		= "Summoner's Brcr.",
 
 		-- Zan?? Phys Dmg -3%
-		--legs		= "Goliard Trews",
-		legs 		= "Summoner's Spats",
+		legs		= "Goliard Trews",
+		--legs 		= "Summoner's Spats",
 		feet		= "Herald's Gaiters",
 		
-		--neck		= "Orochi Nodowa +1",
-		neck		= "Orochi Nodowa",
+		neck		= "Orochi Nodowa +1",
 		waist		= "Hierarch Belt",
 		
 
@@ -217,8 +219,8 @@ function get_sets()
 		body		= "Summoner's Dblt.",
 		hands		= "Carbuncle Mitts",
 
-		--legs		= "Goliard Trews", -- mp+
-		legs		= "Summoner's Spats",
+		legs		= "Goliard Trews", -- mp+
+		--legs		= "Summoner's Spats",
 		
 		--feet		= "Rostrum Pumps",
 		feet		= "Summoner's Pgch.",
@@ -251,8 +253,7 @@ function get_sets()
 
 	sets.perp = { -- Perp cost-
 	-- the base perp set
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Reign Grip",
 		--range		= "Aureole",
 		ammo 		= "Hedgehog Bomb",
@@ -260,11 +261,10 @@ function get_sets()
 		body		= "Penance Robe",
 		--hands		= "Nashira Gages",
 		hands		= "Zenith Mitts +1",
-		--legs		= "Goliard Trews",
-		legs		= "Summoner's Spats",
+		legs		= "Goliard Trews",
+		--legs		= "Summoner's Spats",
 		feet		= "Evk. Pigaches +1",
-		--neck		= "Orochi Nodowa +1",
-		neck		= "Orochi Nodowa",
+		neck		= "Orochi Nodowa +1",
 		waist		= "Hierarch Belt",
 		--left_ear	= "Merman's Earring",
 		--right_ear	= "Merman's Earring",
@@ -305,8 +305,7 @@ function get_sets()
 	
 	sets.perp.engaged = { -- Avatar acc/atk/haste
 	-- after sets.perp, this one is equipped when your pet is engaged
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Reign Grip",
 		--range		= "Aureole",
 		ammo 		= "Hedgehog Bomb",
@@ -319,8 +318,7 @@ function get_sets()
 	sets.perp.endurance = { -- Perp cost- (only this, since it overwrites perp.engaged)
 	-- perp.engaged's relevant petacc/atk/haste slots will stay equipped even after equipping 
 	-- perp.endurance, but only in slots where endurance has no perp- to offer.
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Reign Grip",
 		--range		= "Aureole",
 		ammo 		= "Hedgehog Bomb",
@@ -356,8 +354,7 @@ function get_sets()
 	}
 	
 	sets.siphon = { -- Summoning magic skill
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Reign Grip",
 		head		= "Evoker's Horn",
 		--hands		= "Smn. Bracers +1",
@@ -409,8 +406,7 @@ function get_sets()
 	}
 
 	sets.enhancing_magic = { -- Skill (pot)
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Vivid Strap +1",
 		feet		= "Rostrum Pumps",
 		neck		= "Enhancing Torque",
@@ -421,8 +417,7 @@ function get_sets()
 	
 	sets.enhancing_magic.stoneskin = { -- MND (pot)
 	 -- With 131 (/whm+16merits+10claustrum) skill and 450 being SN cap, you need 167 MND on SMN to get cap 
-	    --main		= "Claustrum",
-	    main		= "Chatoyant Staff",
+	    main		= "Claustrum",
 		sub			= "Reign Grip",
 		ammo		= "Hedgehog Bomb",
 		--head		= "Maat's Cap",
@@ -450,8 +445,7 @@ function get_sets()
 		back		= "Veela Cape"
 	}
 	sets.fastcasthaste = { -- Fast Caste = Haste (recast time)
-	    --main		= "Claustrum",
-	    main		= "Chatoyant Staff",
+	    main		= "Claustrum",
 		sub			= "Vivid Strap +1",
 		ammo		= "Hedgehog Bomb",
 		head		= "Walahra Turban",
@@ -473,8 +467,7 @@ function get_sets()
 	sets.matching_dayweather = {waist="Hachirin-no-Obi"}
 	
 	sets.resting = { -- hMP
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Reign Grip",
 		ammo		= "Hedgehog Bomb",
 		head		= "Mirror Tiara",
@@ -551,8 +544,7 @@ function get_sets()
 		sub			= "Genbu's Shield",
 	}	
 	sets.weapons.staff = {
-		--main		= "Claustrum",
-		main		= "Chatoyant Staff",
+		main		= "Claustrum",
 		sub			= "Pole Grip",
 	}
 	
@@ -603,7 +595,7 @@ function get_sets()
 	endurance_mode = false 					-- true: pet doesn't go into engaged perp set, it keeps on most MP efficient perp set
 	display_mp_cost = true 					-- true: show cost of MP and Blood Pacts
 	display_perp_set = true 				-- true: show current perp set
-	use_terras = false						-- true: use Terra's Staff in idle (over BLM augmented Claustrum)
+	use_terras = true						-- true: use Terra's Staff in idle (over BLM augmented Claustrum)
 	display_info_to_party = false			-- true: will send BP Ward info to party, false goes to echo
 	
 	-- Lists of options. Default value is the first one
@@ -1301,6 +1293,11 @@ function after_aftercast(name)
 	end
 end 
 
+-- When a buff changes
+function buff_change(name,gain)
+	common_debuff_items()
+end
+
 ---------------------
 -- Player commands --
 ---------------------
@@ -1474,20 +1471,4 @@ end
  
 enable('main','sub','range','ammo','head','neck','left_ear','right_ear','body','hands','left_ring','right_ring','back','waist','legs','feet')
 
-job = 'SMN';
-macroBook = '5';
-send_command(
-	'input /echo .       ==>             ...; '..
-	'input /echo .       ==> '..job..' Gearswap Initializing...; '..
-	'input /echo .       ==>             ...; '..
---	'wait 2; input /lockstyle off; '..
-	'wait 1; input /macro book '..macroBook..'; '..
-	'wait 1; input /macro set 1; '..
-	'wait 1; gs equip fashion; '..
-	'wait 10; input /lockstyle on; '..
-	'wait 3; gs c idle; '..
-	'wait 1; input /echo .       ==> '..job..' Gearswap Loaded; '..
-	'input /echo .       ==> Macro Book:'..macroBook..'-Set:1 equipped; '..
-	'input /echo .       ==> all slots changeable...;'..
-	'input /echo .       ==>             ...; '
-)
+common_init('SMN', '5')

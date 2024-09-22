@@ -47,24 +47,24 @@ function get_sets()
 	}
 
 	sets.gear = {
-		main="Yew Wand +1",
-		sub="Pelte",
-		range="Shortbow +1",
-		ammo="Bone Arrow",
+		main		= "Solid Wand",
+		sub			= "Flat Shield",
+		range		= "Shortbow +1",
+		ammo		= "Bone Arrow",
 
-		head="Sage's Circlet",
-		neck="Justice Badge",
-		body="Baron's Saio",
-		hands="Baron's Cuffs",
-		legs="Mage's Slacks",
-		feet="Bounding Boots",
-		back="Traveler's Mantle",
-		--waist="Hierarch Belt",
+		head		= "Baron's Chapeau",
+		neck		= "Solon Torque",
+		body		= "Baron's Saio",
+		hands		= "Garrison Gloves",
+		legs		= "Mage's Slacks",
+		feet		= "Garrison Boots",
+		back		= "Black Cape +1",
+		waist		= "Reverend Sash",
 		
-		ear1="Energy Earring +1",
-		ear2="Energy Earring +1",
-		ring1="Eremite's Ring +1",
-		ring2="Eremite's Ring +1"
+		ear1		= "Morion Earring +1",
+		ear2		= "Morion Earring +1",
+		ring1		= "Eremite's Ring +1",
+		ring2		= "Eremite's Ring +1"
 	}
 
 -------------------------------------------------
@@ -104,7 +104,7 @@ function get_sets()
 	---------------
 
 	meleeMode = false
-	debugMode = true
+	debugMode = false
 
 end
 
@@ -266,20 +266,5 @@ end
 --------------- 
 
 enable('main','sub','range','ammo','head','neck','left_ear','right_ear','body','hands','left_ring','right_ring','back','waist','legs','feet') 
-job = 'RDM';
-macroBook = '8';
-send_command(
-	'input /echo .       ==>             ...; '..
-	'input /echo .       ==> '..job..' Gearswap Initializing...; '..
-	'input /echo .       ==>             ...; '..
-	'wait 2; input /lockstyle off; '..
-	'wait 1; input /macro book '..macroBook..'; '..
-	'wait 1; input /macro set 1; '..
-	'wait 1; gs equip fashion; '..
-	'wait 10; input /lockstyle on; '..
-	'wait 3; gs c idle; '..
-	'wait 1; input /echo .       ==> '..job..' Gearswap Loaded; '..
-	'input /echo .       ==> Macro Book:'..macroBook..'-Set:1 equipped; '..
-	'input /echo .       ==> all slots changeable...;'..
-	'input /echo .       ==>             ...; '
-)
+
+common_init('RDM', '8')

@@ -27,24 +27,25 @@ function get_sets()
 	--This function prepares your equipment sets, sets variables
 
 	sets.gear = {
-		main="Spatha",
-		sub="Pelte",
-		range="Shortbow +1",
-		ammo="Bone Arrow",
 
-		head="Bronze Cap",
-		neck="Justice Badge",
-		body="Linen Robe +1",
-		hands="Scale Fng. Gnt.",
-		legs="Linen Slops +1",
-		feet="Bounding Boots",
-		back="Traveler's Mantle",
-		--waist="Hierarch Belt",
+		main		= "Frostreaper",
+		sub			= "Disciple Grip",
+		range		= "Self Bow +1",
+		ammo		= "Bone Arrow",
+
+		head		= "Empress Hairpin",
+		neck		= "Focus Collar +1",
+		body		= "Chainmail +1",
+		hands		= "Garrison Gloves",
+		legs		= "Garrison Hose",
+		feet		= "Bounding Boots",
+		back		= "Nomad's Mantle",
+		waist		= "Warrior's Belt +1",
 		
-		ear1="Energy Earring +1",
-		ear2="Energy Earring +1",
-		ring1="Eremite's Ring +1",
-		ring2="Eremite's Ring +1"
+		ear1		= "Energy Earring +1",
+		ear2		= "Cassie Earring",
+		ring1		= "Balance Ring +1",
+		ring2		= "Balance Ring +1"
 	}
 
 -------------------------------------------------
